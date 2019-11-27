@@ -9,119 +9,227 @@ import cols7 from '../img/cols7.jpg'
 import cols8 from '../img/cols8.jpg'
 import cols9 from '../img/cols9.jpg'
 
-export default class Product extends Component {
+export default class Products extends Component {
   render() {
     return (
-      <div className="container my-5">
+      <div className="our-products my-5 border-1">
         <div className="my-5 fr fcc">
-          <h1 className="text-dark rem35"><span className="red">Ş</span><span className="orange">e</span><span className="yellow">m</span><span className="green">s</span><span className="blue">i</span><span className="red">p</span><span className="orange">a</span><span className="yellow">ş</span><span className="green">a</span> منتجات</h1>
+            <h3 className='text-secondary font-weight-bold secondary-header'>منتجاتنا</h3>
           <div class="exp">
-            <p className="text-right">
+            <p className="header-description">
               تقدم شركتنا أفضل وأجود أنواع ألبسة الأطفال بأسعار منافسة 
             </p>
           </div>
         </div>
-        <div className="row">
-          <div className="card prod col-md-4 m-0 p-0 cur">
-              <img src={cols1} class="card-img-top image-prod h250p" alt="..." />
-              <div class="caption">
-                <div class="blur"></div>
-                <div class="caption-text">
-                  <h1>Şemsipaşa</h1>
-                  <p>لألبسة الأطفال</p>
-                </div>
+          <div className="products">
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
+              </div>
+              <div className="product-card prod m-0 p-0 cur">
+                  <img src='http://demo1.wpopal.com/berrykid/wp-content/uploads/2016/01/product-6.jpg' className="card-img-top image-prod h250p" alt="..." />
+                  <div className="caption">
+                      <div className="caption-text">
+                          <span className='text-dark font-weight-bolder'>T-Shirt</span>
+                          <span>5 TL</span>
+                      </div>
+                  </div>
               </div>
           </div>
-
-          <div className="card prod col-md-4 m-0 p-0 cur">
-              <img src={cols2} class="card-img-top image-prod h250p" alt="..." />
-              <div class="caption">
-                <div class="blur"></div>
-                <div class="caption-text">
-                  <h1>Şemsipaşa</h1>
-                  <p>لألبسة الأطفال</p>
-                </div>
-              </div>
-          </div>
-
-          <div className="card prod col-md-4 m-0 p-0 cur">
-              <img src={cols3} class="card-img-top image-prod h250p" alt="..." />
-              <div class="caption">
-                <div class="blur"></div>
-                <div class="caption-text">
-                  <h1>Şemsipaşa</h1>
-                  <p>لألبسة الأطفال</p>
-                </div>
-              </div>
-          </div>
-
-          <div className="card prod col-md-4 m-0 p-0 cur">
-              <img src={cols4} class="card-img-top image-prod h250p" alt="..." />
-              <div class="caption">
-                <div class="blur"></div>
-                <div class="caption-text">
-                  <h1>Şemsipaşa</h1>
-                  <p>لألبسة الأطفال</p>
-                </div>
-              </div>
-          </div>
-
-          <div className="card prod col-md-4 m-0 p-0 cur">
-              <img src={cols5} class="card-img-top image-prod h250p" alt="..." />
-              <div class="caption">
-                <div class="blur"></div>
-                <div class="caption-text">
-                  <h1>Şemsipaşa</h1>
-                  <p>لألبسة الأطفال</p>
-                </div>
-              </div>
-          </div>
-
-          <div className="card prod col-md-4 m-0 p-0 cur">
-              <img src={cols6} class="card-img-top image-prod h250p" alt="..." />
-              <div class="caption">
-                <div class="blur"></div>
-                <div class="caption-text">
-                  <h1>Şemsipaşa</h1>
-                  <p>لألبسة الأطفال</p>
-                </div>
-              </div>
-          </div>
-
-          <div className="card prod col-md-4 m-0 p-0 cur">
-              <img src={cols7} class="card-img-top image-prod h250p" alt="..." />
-              <div class="caption">
-                <div class="blur"></div>
-                <div class="caption-text">
-                  <h1>Şemsipaşa</h1>
-                  <p>لألبسة الأطفال</p>
-                </div>
-              </div>
-          </div>
-
-          <div className="card prod col-md-4 m-0 p-0 cur">
-              <img src={cols8} class="card-img-top image-prod h250p" alt="..." />
-              <div class="caption">
-                <div class="blur"></div>
-                <div class="caption-text">
-                  <h1>Şemsipaşa</h1>
-                  <p>لألبسة الأطفال</p>
-                </div>
-              </div>
-          </div>
-
-          <div className="card prod col-md-4 m-0 p-0 cur">
-              <img src={cols9} class="card-img-top image-prod h250p" alt="..." />
-              <div class="caption">
-                <div class="blur"></div>
-                <div class="caption-text">
-                  <h1>Şemsipaşa</h1>
-                  <p>لألبسة الأطفال</p>
-                </div>
-              </div>
-          </div>
-        
-        </div>
       </div>
     )
   }
