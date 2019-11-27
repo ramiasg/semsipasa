@@ -1,8 +1,12 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import './App.css';
+
+import NavBar from './components/NavBar';
 import Slider from './components/Slider';
 import Product from './components/Product';
-import location from './components/location';
+import Soc from './components/Soc';
+
+// import LocationMap from './components/LocationMap';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -10,10 +14,11 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <NavBar />
       <Slider />
       <Product />
-      <location />
+      <Soc />
+      {/* <LocationMap /> */}
       <Contact />
       <Footer />
     </div>
